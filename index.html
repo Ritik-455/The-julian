@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Julian</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="./assets/images/logo.svg" />
+</head>
+
+<body>
+    <header class="bg-hero">
+        <div class="container-2">
+            <nav class="d-flex justify-content-between align-items-center pt-30">
+                <img src="./assets/images/logo.svg" alt="logo" />
+                <ul class="d-flex gap-36 mobile_view" id="navbar">
+                    <li>
+                        <a href="" class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 nav-hover">Home</a>
+                    </li>
+                    <li>
+                        <a href="" class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 nav-hover">About
+                            Us</a>
+                    </li>
+                    <li>
+                        <a href="" class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 nav-hover">Issues</a>
+                    </li>
+                    <li>
+                        <a href=""
+                            class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 nav-hover">Scholarships</a>
+                    </li>
+                    <li>
+                        <a href=""
+                            class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 nav-hover">Curriculum</a>
+                    </li>
+                    <li>
+                        <a href="" class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 nav-hover">Grants</a>
+                    </li>
+                    <li>
+                        <a href="" class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 nav-hover">Donate</a>
+                    </li>
+                    <li>
+                        <a href=""><button
+                                class="nav-btn ff-helve fw-700 text-20 lh-32 position-relative z-3 button-line d-flex gap-2 align-items-center d-sm-none">
+                                <span class="text-gradient">Submit</span><svg width="16" height="14" viewBox="0 0 16 14"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 7L9 13M15 7L9 1M15 7L1 7" stroke="url(#vishal)" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <defs>
+                                        <linearGradient id="vishal" x1="15" y1="1" x2="0.694889" y2="11.925"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#F4EAD8" />
+                                            <stop offset="1" stop-color="#E0B764" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <span></span></button></a>
+                    </li>
+                </ul>
+                <button
+                    class="nav-btn ff-helve fw-700 text-20 lh-32 position-relative z-3 button-line d-flex gap-2 align-items-center d-none d-sm-flex">
+                    <span class="text-gradient">Submit</span><span><svg width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 12L13 18M19 12L13 6M19 12L5 12" stroke="url(#paint0_linear_41361_2210)"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <defs>
+                                <linearGradient id="paint0_linear_41361_2210" x1="19" y1="6" x2="4.69489" y2="16.925"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F4EAD8" />
+                                    <stop offset="1" stop-color="#E0B764" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </span>
+                </button>
+                <div onclick="openNav()" class="menu d-block d-lg-none z-3">
+                    <span></span>
+                    <span class="my-2"></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+        <div class="container-2 mt-168 pb-234">
+            <h2 class="ff-ebgara fw-700 text-64 lh-83 text-gradient mb-0">
+                Dive Into The Past
+            </h2>
+            <p class="ff-helve fw-400 text-16 lh-25 color-lightwhite mb-0 opacity-7 max-w-436 mt-3">
+                Lorem ipsum dolor sit amet consectetur. Sit vel a nunc enim amet
+                phasellus fringilla. Sed vel egestas at cras rutrum nunc massa .
+                Lectus sed vestibulum facilisis odio.
+            </p>
+            <button
+                class="nav-btn ff-helve fw-700 text-20 lh-32 position-relative z-3 button-line d-flex gap-2 align-items-center d-none d-sm-flex mt-32">
+                <span class="text-gradient">Submit Now</span><span><svg width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12L13 18M19 12L13 6M19 12L5 12" stroke="url(#paint0_linear_41361_2210)"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                            <linearGradient id="paint0_linear_41361_2210" x1="19" y1="6" x2="4.69489" y2="16.925"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F4EAD8" />
+                                <stop offset="1" stop-color="#E0B764" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+            </button>
+            <p class="ff-helve fw-400 text-20 lh-32 lts-1 color-lightwhite mb-0 opacity-7">
+                Submit by May 1, 2023
+            </p>
+        </div>
+    </header>
+    <div class="container-2">
+        <div class="hero-box">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-xl-4">
+                    <div class="d-flex gap-16">
+                        <img src="./assets/images/hero-box-1.svg" alt="hero-box-1" />
+                        <p class="ff-helve text-20 lh-32 color-black fw-700 mb-0">
+                            $60,000<span class="fw-400">Cash Prizes</span>
+                        </p>
+                    </div>
+                    <div class="d-flex gap-16 mt-2 mt-xl-5">
+                        <img src="./assets/images/hero-box-2.svg" alt="hero-box-1" />
+                        <p class="ff-helve text-20 lh-32 color-black mb-0 fw-400">
+                            Grades<span class="fw-700">9–12,</span> Worldwide
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-4">
+                    <div class="d-flex gap-16 mt-2 mt-sm-0">
+                        <img src="./assets/images/hero-box-3.svg" alt="hero-box-1" />
+                        <p class="ff-helve text-20 lh-32 color-black fw-700 mb-0">
+                            6%<span class="fw-400">Acceptance Rate</span>
+                        </p>
+                    </div>
+                    <div class="d-flex gap-16 mt-2 mt-xl-5">
+                        <img src="./assets/images/hero-box-4.svg" alt="hero-box-1" />
+                        <p class="ff-helve text-20 lh-32 color-black fw-700 mb-0 text-nowrap">
+                            Zero<span class="fw-400"> Submission Fees</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-4 d-none d-xl-block">
+                    <div class="d-flex gap-16">
+                        <img src="./assets/images/hero-img-5.svg" alt="hero-box-1" />
+                        <p class="ff-helve text-20 lh-32 color-black fw-700 mb-0 text-nowrap">
+                            Published<span class="fw-400">Quarterly</span>
+                        </p>
+                    </div>
+                    <div class="d-flex gap-16 mt-2 mt-xl-5">
+                        <img src="./assets/images/hero-box-6.svg" alt="hero-box-1" />
+                        <p class="ff-helve text-20 lh-32 color-black fw-700 mb-0">
+                            Open<span class="fw-400">Access</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 d-xl-none">
+                    <div class="d-flex gap-16 mt-2">
+                        <img src="./assets/images/hero-img-5.svg" alt="hero-box-1" />
+                        <p class="ff-helve text-20 lh-32 color-black fw-700 mb-0 text-nowrap">
+                            Published<span class="fw-400">Quarterly</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 d-xl-none">
+                    <div class="d-flex gap-16 mt-2">
+                        <img src="./assets/images/hero-box-6.svg" alt="hero-box-1" />
+                        <p class="ff-helve text-20 lh-32 color-black fw-700 mb-0">
+                            Open<span class="fw-400">Access</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button
+                    class="nav-btn ff-helve fw-700 text-20 lh-32 position-relative z-3 button-line d-flex gap-2 align-items-center d-flex mt-32">
+                    <span class="text-gradient">Submit</span><span><svg width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 12L13 18M19 12L13 6M19 12L5 12" stroke="url(#hello)" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <defs>
+                                <linearGradient id="hello" x1="19" y1="6" x2="4.69489" y2="16.925"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F4EAD8" />
+                                    <stop offset="1" stop-color="#E0B764" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- writing-your-own-history-section-2 -->
+    <section>
+        <div class="container-2 pb-90">
+            <div class="d-flex flex-column align-items-center">
+                <a href="https://youtu.be/LXb3EKWsInQ?si=bEfPK1lP9tLC41yW" target="_blank">
+                    <img class="history-img-border position-relative w-100" src="./assets/images/History-paper-img.png"
+                        alt="History-paper-img" />
+                </a>
+                <h3 class="ff-helve fw-700 text-48 lh-55 text-center color-darkblack mb-0 max-w-524 mt-95 mb-0">
+                    Start Writing Your Own History Paper
+                </h3>
+            </div>
+            <p class="ff-helve fw-400 text-16 lh-25 text-center color-darkblack opacity-7 mt-3 mb-0">
+                Choose your topic. Find expert guidance. Create a thesis and bring it
+                to life.
+            </p>
+            <div class="d-flex align-items-start gap-82 mt-5 flex-wrap flex-md-nowrap">
+                <div class="nav flex-column nav-pills gap-16" id="v-pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <div class="nav-box active position-relative" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true">
+                        <div class="d-flex justify-content-between">
+                            <p class="ff-helve fw-700 text-20 lh-32 color-black mb-0">
+                                World Class Research
+                            </p>
+                            <img src="./assets/images/tabs-icon.svg" alt="tabs-icon" />
+                        </div>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-black mb-0 max-w-421 opacity-7 mt-8">
+                            The Julian Project offers free online self-paced courses for
+                            aspiring historians to dive deeper into historical research.
+                        </p>
+                    </div>
+                    <div class="nav-box position-relative" id="v-pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                        aria-selected="false">
+                        <div class="d-flex justify-content-between">
+                            <p class="ff-helve fw-700 text-20 lh-32 color-black mb-0">
+                                Think Big, Dive Deep
+                            </p>
+                            <img src="./assets/images/tabs-icon.svg" alt="tabs-icon" />
+                        </div>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-black mb-0 max-w-421 opacity-7 mt-8">
+                            Embarking on writing an extensive history research paper offers
+                            an immersive journey into the depths of the past.
+                        </p>
+                    </div>
+                    <div class="nav-box position-relative" id="v-pills-messages-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                        aria-selected="false">
+                        <div class="d-flex justify-content-between">
+                            <p class="ff-helve fw-700 text-20 lh-32 color-black mb-0">
+                                Research Recognition
+                            </p>
+                            <img src="./assets/images/tabs-icon.svg" alt="tabs-icon" />
+                        </div>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-black mb-0 max-w-421 opacity-7 mt-8">
+                            The Julian Project annually awards prizes to the authors of that
+                            year’s most distinguishing papers.
+                        </p>
+                    </div>
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <div class="d-flex gap-12 align-items-center">
+                            <img src="./assets/images/vinay-img.svg" alt="tab-img" />
+                            <div>
+                                <p class="ff-helve fw-400 text-16 lh-25 color-black mb-0">
+                                    Vinay, 18 (UAE)
+                                </p>
+                                <p class="ff-helve fw-400 text-14 lh-22 color-black opacity-7 mb-0">
+                                    Student
+                                </p>
+                            </div>
+                        </div>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-black opacity-7 mb-0 max-w-598 mt-28">
+                            The Julian Project offers academic opportunities beyond
+                            theclassroom for aspiring historians to dive deeper into
+                            historical research.Our goal is to make the study of history
+                            more accessible to all. Especiallyfor First-Generation and
+                            Low-Income (FGLI) students, we offer free,individual mentorship
+                            throughout the year to help guide you on thisenriching journey.
+                            We rely on donations to make these opportunitiespossible and
+                            hope you could contribute to The Julian Project.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <div class="d-flex gap-12 align-items-center">
+                            <img src="./assets/images/vinay-img.svg" alt="tab-img" />
+                            <div>
+                                <p class="ff-helve fw-400 text-16 lh-25 color-black mb-0">
+                                    Vishal, 18 (UAE)
+                                </p>
+                                <p class="ff-helve fw-400 text-14 lh-22 color-black opacity-7 mb-0">
+                                    Student
+                                </p>
+                            </div>
+                        </div>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-black opacity-7 mb-0 max-w-598 mt-28">
+                            The Julian Project offers academic opportunities beyond
+                            theclassroom for aspiring historians to dive deeper into
+                            historical research.Our goal is to make the study of history
+                            more accessible to all. Especiallyfor First-Generation and
+                            Low-Income (FGLI) students, we offer free,individual mentorship
+                            throughout the year to help guide you on thisenriching journey.
+                            We rely on donations to make these opportunitiespossible and
+                            hope you could contribute to The Julian Project.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">
+                        <div class="d-flex gap-12 align-items-center">
+                            <img src="./assets/images/vinay-img.svg" alt="tab-img" />
+                            <div>
+                                <p class="ff-helve fw-400 text-16 lh-25 color-black mb-0">
+                                    Rahul, 18 (UAE)
+                                </p>
+                                <p class="ff-helve fw-400 text-14 lh-22 color-black opacity-7 mb-0">
+                                    Student
+                                </p>
+                            </div>
+                        </div>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-black opacity-7 mb-0 max-w-598 mt-28">
+                            The Julian Project offers academic opportunities beyond
+                            theclassroom for aspiring historians to dive deeper into
+                            historical research.Our goal is to make the study of history
+                            more accessible to all. Especiallyfor First-Generation and
+                            Low-Income (FGLI) students, we offer free,individual mentorship
+                            throughout the year to help guide you on thisenriching journey.
+                            We rely on donations to make these opportunitiespossible and
+                            hope you could contribute to The Julian Project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="nav-btn ff-helve fw-700 text-20 lh-32 position-relative z-3 button-line d-flex gap-2 align-items-center mt-44">
+                <span class="text-gradient">Submit</span><span><svg width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12L13 18M19 12L13 6M19 12L5 12" stroke="url(#bgj)" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                            <linearGradient id="bgj" x1="19" y1="6" x2="4.69489" y2="16.925"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F4EAD8" />
+                                <stop offset="1" stop-color="#E0B764" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+            </button>
+        </div>
+    </section>
+    <!---------------------------------- section-corona -------------------------->
+    <section class="bg-corona">
+        <div class="container-2 py-100">
+            <h6 class="ff-helve fw-700 text-48 lh-55 text-gradient text-center mb-0">
+                The Corona Civica
+            </h6>
+            <div class="d-flex justify-content-center">
+                <p class="ff-helve fw-400 text-16 lh-25 text-center color-lightwhite opacity-7 mb-0 max-w-727 mt-3">
+                    To bridge the inequality gap in the humanities, The Julian Grant
+                    recognizes and supports the remarkable achievements of
+                    First-Generation Low-Income (FGLI) historians.
+                </p>
+            </div>
+            <div class="row mt-45">
+                <div
+                    class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mt-117 order-2 order-md-1 mt-5 mt-sm-0">
+                    <div class="bg-number d-flex align-items-end justify-content-center">
+                        <div class="max-w-322">
+                            <p class="ff-helve fw-400 text-36 number-gradient mb-0 text-center">
+                                $10,000
+                            </p>
+                            <p class="ff-helve fw-400 text-28 lh-44 color-gold mb-0 text-center mt-15">
+                                Second Prize (2x)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 order-1 order-md-2">
+                    <div class="bg-number1 d-flex align-items-end justify-content-center">
+                        <div class="max-w-322 position-relative">
+                            <p class="ff-helve fw-400 text-36 number-gradient mb-0 text-center">
+                                $25,000
+                            </p>
+                            <p class="ff-helve fw-400 text-28 lh-44 color-gold mb-0 text-center mt-15">
+                                First Prize
+                            </p>
+                            <div class="position-absolute line-pos">
+                                <img src="./assets/images/first-prize-bottom-img.png" alt="first-prize-bottom-img" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center mt-117 order-3 mt-3 mt-sm-5 order-md-3">
+                    <div class="bg-number3 d-flex align-items-end justify-content-center">
+                        <div class="max-w-322">
+                            <p class="ff-helve fw-400 text-36 number-gradient mb-0 text-center">
+                                $3,000
+                            </p>
+                            <p class="ff-helve fw-400 text-28 lh-44 color-gold mb-0 text-center mt-15">
+                                Third Prize (5x)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="ff-helve fw-400 text-24 lh-38 color-lightwhite text-center mb-0 mt-88">
+                We evaluate papers on the basis of
+            </p>
+
+            <div class="row mt-32 d-none d-xl-flex">
+                <div class="col-4">
+                    <div class="evaluate-box">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="20" fill="url(#paint0_linear_41260_4742)" />
+                            <path
+                                d="M22.1053 8.86489C22.0421 8.92359 21.9653 9.02744 21.9427 9.09065C21.9156 9.16289 21.8976 10.3278 21.8976 12.1789V15.1498L22.0014 15.3033C22.1233 15.4885 22.2723 15.5697 22.4845 15.5697C22.6967 15.5697 22.8457 15.4885 22.9676 15.3033C23.067 15.1544 23.0715 15.1182 23.0715 14.0753V12.9962H24.1596C25.3561 12.9962 25.469 13.0187 25.6135 13.2626C25.6857 13.3845 25.6902 13.8676 25.6902 20.2383V27.0831H21.8479C18.5248 27.0831 17.9876 27.0921 17.8611 27.1508C17.5993 27.2773 17.5902 27.3179 17.5586 28.5053C17.527 29.7966 17.4999 29.905 17.1161 30.2933C16.782 30.6274 16.5743 30.6997 15.8474 30.7267C15.1837 30.7538 14.958 30.7087 14.7909 30.51L14.6735 30.3701V21.8547C14.6735 17.1681 14.6554 13.258 14.6329 13.1632L14.5922 12.9962H16.3667C18.1365 12.9962 18.1365 12.9962 18.2901 12.8923C18.561 12.7072 18.6377 12.3821 18.4661 12.1067C18.2855 11.8087 18.3984 11.8177 15.3372 11.8313L12.574 11.8448L12.3031 11.9532C11.9284 12.1022 11.522 12.5131 11.3775 12.8833C11.2827 13.1271 11.2692 13.24 11.2556 13.9895C11.233 14.9783 11.2646 15.0821 11.6123 15.2266C11.7974 15.3033 11.8381 15.3033 12.0141 15.2492C12.1451 15.204 12.2444 15.1363 12.3121 15.0324C12.4115 14.888 12.416 14.8338 12.416 14.152C12.416 13.5109 12.425 13.407 12.5063 13.2806C12.6011 13.1226 12.8043 12.9962 12.9668 12.9962C13.1023 12.9962 13.3416 13.1452 13.4183 13.2761C13.468 13.3619 13.4815 15.0008 13.4996 22.0263L13.5222 30.6726L13.6621 30.9435C13.8292 31.264 14.1543 31.5801 14.4703 31.7336L14.6961 31.8465L21.13 31.86C25.8753 31.8691 27.6272 31.86 27.8123 31.8239C28.1961 31.7426 28.5979 31.5304 28.9049 31.246C29.2481 30.9254 29.4467 30.6229 29.6048 30.1669C29.7222 29.8283 29.7267 29.7741 29.7447 28.704C29.7628 27.4579 29.7402 27.3359 29.4738 27.1734C29.3339 27.0876 29.2481 27.0831 28.0967 27.0831H26.8641L26.8551 20.0712L26.8416 13.0639L26.7151 12.8065C26.5391 12.4498 26.2456 12.1609 25.8799 11.9893L25.5773 11.8448L24.3267 11.8313L23.0715 11.8177V10.5039C23.0715 9.06356 23.0534 8.95068 22.7961 8.81974C22.5884 8.71138 22.2498 8.73396 22.1053 8.86489ZM28.5708 28.9659C28.5573 29.5709 28.5392 29.7109 28.4579 29.8915C28.3225 30.1895 28.0335 30.4875 27.7536 30.6094L27.5188 30.7177L22.927 30.7313C20.3986 30.7358 18.3307 30.7313 18.3307 30.7177C18.3307 30.7042 18.3804 30.5958 18.4391 30.4784C18.6468 30.0676 18.6964 29.8057 18.7235 29.011L18.7506 28.257H23.672H28.5889L28.5708 28.9659Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M19.9746 10.3588C19.9024 10.3949 19.7985 10.4897 19.7489 10.571C19.6676 10.7109 19.6631 10.8193 19.6631 13.3568C19.6631 15.4562 19.6766 16.0206 19.7218 16.1019C19.8663 16.3502 20.2681 16.4541 20.5435 16.3141C20.8189 16.1696 20.8144 16.2374 20.8144 13.3206C20.8144 10.6929 20.8144 10.6568 20.7196 10.5394C20.53 10.2956 20.241 10.2278 19.9746 10.3588Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M17.6941 13.7772C17.4503 13.9397 17.4277 14.0255 17.4277 14.8247C17.4277 15.4613 17.4368 15.5651 17.518 15.6916C17.7573 16.0844 18.3623 16.0482 18.5384 15.6374C18.6287 15.4207 18.6287 14.2287 18.5384 14.012C18.403 13.6959 17.9876 13.5785 17.6941 13.7772Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M19.6627 16.8835C18.6513 17.0144 17.6445 17.5427 16.9356 18.3012C15.5405 19.8002 15.3282 22.0623 16.4164 23.8231C16.7144 24.3062 17.4368 25.0106 17.9018 25.2815C18.8319 25.8143 19.7665 26.0219 20.7508 25.9136C23.4553 25.6066 25.2794 23.0962 24.7195 20.4459C24.3448 18.6805 22.9767 17.3169 21.2023 16.9422C20.796 16.8564 20.06 16.8293 19.6627 16.8835ZM19.7665 18.536C19.8704 18.7211 20.0465 18.8204 20.2722 18.8204C20.6109 18.8204 20.8592 18.5631 20.8592 18.2154V18.0619L21.112 18.1296C21.9518 18.3464 22.7149 18.9243 23.1709 19.6873C23.3334 19.9628 23.5682 20.5542 23.5682 20.6942C23.5682 20.7258 23.4824 20.7619 23.3515 20.78C22.9948 20.8251 22.8006 21.0373 22.8006 21.3715C22.8006 21.7056 23.0445 21.9358 23.4012 21.9358H23.6043L23.5411 22.2067C23.2747 23.3581 22.2904 24.3514 21.1211 24.6584L20.8682 24.7261L20.8501 24.4778C20.8231 24.1753 20.7102 24.0128 20.4619 23.9225C20.0645 23.7825 19.6853 24.0714 19.6853 24.5139V24.7261L19.4279 24.6584C18.2901 24.3604 17.3104 23.3987 17.0214 22.297C16.9943 22.1842 16.9627 22.0623 16.9491 22.0216C16.9311 21.9584 16.9762 21.9449 17.1839 21.9268C17.4052 21.9087 17.4639 21.8817 17.5677 21.7643C17.9154 21.376 17.7122 20.8477 17.193 20.78L16.9672 20.7484L16.9988 20.5858C17.0169 20.4955 17.0891 20.2788 17.1614 20.0982C17.5587 19.15 18.394 18.4186 19.3918 18.1387L19.6627 18.0664L19.6853 18.2516C19.6988 18.3554 19.7349 18.4818 19.7665 18.536Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M20.0513 19.7822C19.7488 19.8905 19.7082 20.0034 19.6946 20.7935C19.6856 21.2676 19.6946 21.5385 19.7352 21.6243C19.7623 21.6965 20.1913 22.13 20.6834 22.5905C21.627 23.4619 21.7128 23.5206 22.0289 23.4484C22.1011 23.4348 22.2275 23.349 22.3043 23.2633C22.4172 23.1323 22.4398 23.0691 22.4398 22.8795C22.4398 22.6628 22.4262 22.6357 22.1734 22.3738C22.0244 22.2203 21.6677 21.8816 21.3832 21.6198L20.864 21.1457L20.8595 20.6806C20.8595 20.1659 20.8008 19.9673 20.6247 19.8499C20.4622 19.746 20.2319 19.7144 20.0513 19.7822Z"
+                                fill="#1A1A1A" />
+                            <defs>
+                                <linearGradient id="paint0_linear_41260_4742" x1="-1.10745e-06" y1="4.50001"
+                                    x2="42.6839" y2="68.4054" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#EEDDBF" />
+                                    <stop offset="0.745659" stop-color="#C78A11" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <p class="ff-helve fw-700 text-16 lh-25 color-lightwhite mb-0 mt-4">
+                            Historical Importance
+                        </p>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 mb-0 max-w-316">
+                            Why is the history paper important? How does it contribute to
+                            the broader understanding of our shared past? How does the
+                            paper’s topic shape the course of history?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="evaluate-box">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="20" fill="url(#paint0_linear_41260_4753)" />
+                            <path
+                                d="M19.6443 8.63449C19.072 9.02136 15.198 12.1852 15.1238 12.3177C15.0072 12.5456 15.0231 13.0013 15.1503 13.2133C15.3623 13.5631 15.4842 13.5949 16.5971 13.5949H17.5881V14.5859C17.5881 15.4868 17.5987 15.5981 17.6941 15.7571C17.8531 16.0115 18.0915 16.1387 18.436 16.1387C18.7805 16.1387 19.019 16.0115 19.1779 15.7571C19.2786 15.5928 19.2839 15.4868 19.2839 14.0188C19.2839 12.5509 19.2786 12.4449 19.1779 12.2806C19.0455 12.0633 18.7752 11.899 18.5473 11.899C18.383 11.899 18.4201 11.8566 19.2309 11.2101C19.7026 10.8285 20.1107 10.5211 20.1319 10.5211C20.1531 10.5211 20.5611 10.8285 21.0328 11.2101C21.8436 11.8566 21.8807 11.899 21.7164 11.899C21.4886 11.899 21.2183 12.0633 21.0858 12.2806C20.9851 12.4449 20.9798 12.5509 20.9798 14.0188C20.9798 15.4868 20.9851 15.5928 21.0858 15.7571C21.2448 16.0115 21.4833 16.1387 21.8277 16.1387C22.1722 16.1387 22.4107 16.0115 22.5697 15.7571C22.6651 15.5981 22.6757 15.4868 22.6757 14.5859V13.5949H23.672C24.7796 13.5949 24.9015 13.5631 25.1135 13.2133C25.2406 13.0013 25.2565 12.5456 25.14 12.3177C25.0658 12.1852 21.1918 9.02136 20.6194 8.63449C20.3598 8.4543 19.904 8.4543 19.6443 8.63449Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M12.8816 14.5495C12.7862 14.6077 12.6643 14.7296 12.606 14.825C12.5 14.9999 12.5 15.1112 12.5 23.3467C12.5 31.5823 12.5 31.6935 12.606 31.8684C12.6643 31.9638 12.7862 32.0857 12.8816 32.144C13.0512 32.25 13.1624 32.25 20.1314 32.25C27.1003 32.25 27.2116 32.25 27.3812 32.144C27.4766 32.0857 27.5985 31.9638 27.6568 31.8684C27.7627 31.6935 27.7627 31.5823 27.7627 23.3467C27.7627 15.1112 27.7627 14.9999 27.6568 14.825C27.4395 14.47 27.3388 14.4435 26.0669 14.4435C24.795 14.4435 24.6943 14.47 24.477 14.825C24.3339 15.0635 24.3339 15.5193 24.477 15.7578C24.6678 16.0704 24.8533 16.1393 25.4998 16.1393H26.0669V23.3467V30.5541H20.1314H14.1959V23.3467V16.1393H14.7682C15.2399 16.1393 15.3618 16.1234 15.5102 16.0333C15.7645 15.8743 15.8917 15.6359 15.8917 15.2914C15.8917 14.9469 15.7645 14.7084 15.5102 14.5495C15.3512 14.4541 15.2399 14.4435 14.1959 14.4435C13.1518 14.4435 13.0406 14.4541 12.8816 14.5495Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M18.1496 17.0405C18.0649 17.067 17.9377 17.1411 17.8688 17.21C17.625 17.4379 17.5879 17.5757 17.5879 18.2965C17.5879 18.8794 17.6038 19.0013 17.6939 19.1497C17.8529 19.4041 18.0913 19.5312 18.4358 19.5312C18.7803 19.5312 19.0188 19.4041 19.1778 19.1497C19.2679 18.996 19.2838 18.8794 19.2838 18.2806C19.2838 17.6499 19.2732 17.5704 19.1672 17.4114C19.0983 17.316 18.987 17.1941 18.9128 17.1358C18.7538 17.0246 18.3616 16.9716 18.1496 17.0405Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M21.5412 17.0405C21.4565 17.067 21.3293 17.1411 21.2604 17.21C21.0166 17.4379 20.9795 17.5757 20.9795 18.2965C20.9795 18.8794 20.9954 19.0013 21.0855 19.1497C21.2445 19.4041 21.483 19.5312 21.8274 19.5312C22.1719 19.5312 22.4104 19.4041 22.5694 19.1497C22.6595 18.996 22.6754 18.8794 22.6754 18.2806C22.6754 17.6499 22.6648 17.5704 22.5588 17.4114C22.4899 17.316 22.3786 17.1941 22.3044 17.1358C22.1454 17.0246 21.7532 16.9716 21.5412 17.0405Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M17.9901 20.4802C17.6085 20.7345 17.4813 21.2592 17.6986 21.6461C17.8841 21.9693 18.0378 22.0488 18.4776 22.0488C18.8645 22.0488 18.8698 22.0488 19.0712 21.8315C19.4209 21.4553 19.4209 20.9995 19.0712 20.6285C18.8804 20.4219 18.8539 20.4113 18.5094 20.3901C18.2126 20.3795 18.1172 20.3954 17.9901 20.4802Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M21.3817 20.4802C21.0001 20.7345 20.8729 21.2592 21.0902 21.6461C21.2757 21.9693 21.4294 22.0488 21.8692 22.0488C22.2561 22.0488 22.2614 22.0488 22.4628 21.8315C22.8125 21.4553 22.8125 20.9995 22.4628 20.6285C22.272 20.4219 22.2455 20.4113 21.901 20.3901C21.6042 20.3795 21.5088 20.3954 21.3817 20.4802Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M16.2732 23.8769C16.0188 24.0359 15.8916 24.2744 15.8916 24.6189C15.8916 24.9633 16.0188 25.2018 16.2732 25.3608C16.4428 25.4615 16.5487 25.4668 20.1313 25.4668C23.7138 25.4668 23.8197 25.4615 23.9893 25.3608C24.2437 25.2018 24.3709 24.9633 24.3709 24.6189C24.3709 24.2744 24.2437 24.0359 23.9893 23.8769C23.8197 23.7762 23.7138 23.7709 20.1313 23.7709C16.5487 23.7709 16.4428 23.7762 16.2732 23.8769Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M16.2732 27.2676C16.0188 27.4265 15.8916 27.665 15.8916 28.0095C15.8916 28.354 16.0188 28.5924 16.2732 28.7514C16.4428 28.8521 16.5487 28.8574 20.1313 28.8574C23.7138 28.8574 23.8197 28.8521 23.9893 28.7514C24.2437 28.5924 24.3709 28.354 24.3709 28.0095C24.3709 27.665 24.2437 27.4265 23.9893 27.2676C23.8197 27.1669 23.7138 27.1616 20.1313 27.1616C16.5487 27.1616 16.4428 27.1669 16.2732 27.2676Z"
+                                fill="#1A1A1A" />
+                            <defs>
+                                <linearGradient id="paint0_linear_41260_4753" x1="-1.10745e-06" y1="4.50001"
+                                    x2="42.6839" y2="68.4054" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#EEDDBF" />
+                                    <stop offset="0.745659" stop-color="#C78A11" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <p class="ff-helve fw-700 text-16 lh-25 color-lightwhite mb-0 mt-4">
+                            Authorship
+                        </p>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 mb-0 max-w-316">
+                            Is the paper interesting to read? Is it free of grammatical
+                            errors and misinformation? Does it follow guidelines and
+                            accurately present the author’s analysis?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="evaluate-box">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="20" fill="url(#paint0_linear_41260_4767)" />
+                            <path
+                                d="M11 16.9531V23.9062H12.9297H14.8594L15 24.0625C15.0781 24.1484 15.1406 24.2305 15.1406 24.25C15.1406 24.2656 14.4102 25.0078 13.5195 25.8984L11.8984 27.5195L13.1367 28.7578C13.8203 29.4414 14.3945 30 14.418 30C14.4414 30 15.0781 29.3789 15.8359 28.6211L17.2148 27.2422L17.4883 27.2695C17.6406 27.2891 17.8555 27.3281 17.9688 27.3594C18.332 27.4648 18.8711 27.9062 19.5078 28.6133L19.7891 28.9258L20.0508 28.6328C20.668 27.9336 21.2422 27.4688 21.6094 27.3594C21.7227 27.3281 21.9375 27.2891 22.0898 27.2695L22.3633 27.2422L23.7422 28.6211C24.5 29.3789 25.1367 30 25.1602 30C25.1836 30 25.7578 29.4414 26.4414 28.7578L27.6797 27.5195L26.0586 25.8984C25.168 25.0078 24.4375 24.2656 24.4375 24.25C24.4375 24.2305 24.5 24.1484 24.5781 24.0625L24.7188 23.9062H26.6484H28.5781V16.9531V10H19.7891H11V16.9531ZM16.8594 14.5586V17.9492L18.3242 16.4844L19.7891 15.0195L21.2539 16.4844L22.7188 17.9492V14.5586V11.1719H25.0625H27.4062V16.9531V22.7344H26.0625H24.7188L24.4336 22.4141C23.7852 21.6758 23.7109 21.4531 23.7188 20.2109L23.7227 19.3867L22.8984 19.3906C21.8633 19.3945 21.6055 19.3477 21.1836 19.0625C20.8711 18.8477 20.4922 18.5 20.0703 18.0273L19.7891 17.7148L19.5078 18.0273C19.0859 18.5 18.707 18.8477 18.3945 19.0625C17.9727 19.3477 17.7148 19.3945 16.6797 19.3906L15.8555 19.3867L15.8594 20.2109C15.8672 21.4531 15.793 21.6758 15.1445 22.4141L14.8594 22.7344H13.5156H12.1719V16.9531V11.1719H14.5156H16.8594V14.5586ZM21.5469 13.0938V15.0195L20.668 14.1406L19.7891 13.2617L18.9102 14.1406L18.0312 15.0195V13.0938V11.1719H19.7891H21.5469V13.0938ZM20.1094 19.7812C20.6797 20.2578 21.2227 20.5 21.8594 20.5625C22 20.5781 22.1953 20.5977 22.2969 20.6094L22.4766 20.6328L22.5039 20.8711C22.6094 21.9219 22.7969 22.3867 23.3789 23.0664C23.4883 23.1914 23.5781 23.3086 23.5781 23.3203C23.5781 23.332 23.4883 23.4492 23.3789 23.5742C22.8047 24.2461 22.5938 24.7656 22.5039 25.75L22.4805 26.0117L22.2578 26.0352C21.1914 26.1445 20.7734 26.3008 20.1602 26.8164C20.0312 26.9219 19.8945 27.0352 19.8555 27.0664C19.7969 27.1133 19.7578 27.0938 19.5039 26.8828C18.793 26.2969 18.418 26.1484 17.3203 26.0352L17.1016 26.0117L17.0742 25.7695C16.9648 24.7109 16.8125 24.3125 16.25 23.6406C16.1133 23.4766 16 23.332 16 23.3203C16 23.3086 16.1133 23.1641 16.25 23C16.8125 22.3281 16.9648 21.9297 17.0742 20.8711L17.1016 20.6328L17.2812 20.6094C17.3828 20.5977 17.5781 20.5781 17.7188 20.5625C18.3555 20.5 18.8984 20.2578 19.4688 19.7812C19.6328 19.6445 19.7773 19.5312 19.7891 19.5312C19.8008 19.5312 19.9453 19.6445 20.1094 19.7812ZM15.8594 26.1992L15.8633 26.875L15.1406 27.5977L14.418 28.3203L14.0195 27.9219L13.6172 27.5195L14.6992 26.4375C15.6953 25.4414 15.7852 25.3594 15.8203 25.4414C15.8398 25.4883 15.8555 25.832 15.8594 26.1992ZM25.5625 27.918L25.1602 28.3203L24.4375 27.5977L23.7148 26.875V26.2578C23.7148 25.9219 23.7305 25.5742 23.75 25.4922L23.7812 25.3398L24.8711 26.4297L25.9609 27.5195L25.5625 27.918Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M19.207 21.6366C18.7383 21.8124 18.3984 22.121 18.1758 22.5741C18.0547 22.8241 18.0508 22.8515 18.0508 23.3202C18.0508 23.789 18.0547 23.8163 18.1758 24.0663C18.4023 24.5273 18.7461 24.8358 19.2266 25.0038C19.418 25.0702 19.5273 25.0819 19.8672 25.0702C20.2383 25.0585 20.3047 25.0429 20.5508 24.9218C20.9102 24.7499 21.2188 24.4413 21.3945 24.0819C21.5234 23.8163 21.5273 23.7968 21.5273 23.3202C21.5273 22.8437 21.5234 22.8241 21.3945 22.5585C21.2188 22.1991 20.9102 21.8905 20.5508 21.7187C20.2969 21.5937 20.2422 21.5819 19.8477 21.5741C19.4961 21.5624 19.3789 21.5741 19.207 21.6366ZM20.0781 22.8476C20.2461 22.9608 20.3359 23.121 20.3359 23.3202C20.3359 23.6327 20.1016 23.8671 19.7891 23.8671C19.5898 23.8671 19.4297 23.7773 19.3164 23.6093C19.1602 23.371 19.2461 23.0155 19.5 22.8476C19.6484 22.7499 19.9297 22.7499 20.0781 22.8476Z"
+                                fill="#1A1A1A" />
+                            <defs>
+                                <linearGradient id="paint0_linear_41260_4767" x1="-1.10745e-06" y1="4.50001"
+                                    x2="42.6839" y2="68.4054" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#EEDDBF" />
+                                    <stop offset="0.745659" stop-color="#C78A11" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <p class="ff-helve fw-700 text-16 lh-25 color-lightwhite mb-0 mt-4">
+                            Originality
+                        </p>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 mb-0 max-w-316">
+                            How original is the author’s topic or thesis? Does it make it a
+                            novel claim in an already heavily talked about topic? Does it go
+                            against scholarly consensus?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slick d-block d-xl-none mt-32">
+                <div class="d-flex justify-content-center">
+                    <div class="evaluate-box mx-3">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="20" fill="url(#xd)" />
+                            <path
+                                d="M22.1053 8.86489C22.0421 8.92359 21.9653 9.02744 21.9427 9.09065C21.9156 9.16289 21.8976 10.3278 21.8976 12.1789V15.1498L22.0014 15.3033C22.1233 15.4885 22.2723 15.5697 22.4845 15.5697C22.6967 15.5697 22.8457 15.4885 22.9676 15.3033C23.067 15.1544 23.0715 15.1182 23.0715 14.0753V12.9962H24.1596C25.3561 12.9962 25.469 13.0187 25.6135 13.2626C25.6857 13.3845 25.6902 13.8676 25.6902 20.2383V27.0831H21.8479C18.5248 27.0831 17.9876 27.0921 17.8611 27.1508C17.5993 27.2773 17.5902 27.3179 17.5586 28.5053C17.527 29.7966 17.4999 29.905 17.1161 30.2933C16.782 30.6274 16.5743 30.6997 15.8474 30.7267C15.1837 30.7538 14.958 30.7087 14.7909 30.51L14.6735 30.3701V21.8547C14.6735 17.1681 14.6554 13.258 14.6329 13.1632L14.5922 12.9962H16.3667C18.1365 12.9962 18.1365 12.9962 18.2901 12.8923C18.561 12.7072 18.6377 12.3821 18.4661 12.1067C18.2855 11.8087 18.3984 11.8177 15.3372 11.8313L12.574 11.8448L12.3031 11.9532C11.9284 12.1022 11.522 12.5131 11.3775 12.8833C11.2827 13.1271 11.2692 13.24 11.2556 13.9895C11.233 14.9783 11.2646 15.0821 11.6123 15.2266C11.7974 15.3033 11.8381 15.3033 12.0141 15.2492C12.1451 15.204 12.2444 15.1363 12.3121 15.0324C12.4115 14.888 12.416 14.8338 12.416 14.152C12.416 13.5109 12.425 13.407 12.5063 13.2806C12.6011 13.1226 12.8043 12.9962 12.9668 12.9962C13.1023 12.9962 13.3416 13.1452 13.4183 13.2761C13.468 13.3619 13.4815 15.0008 13.4996 22.0263L13.5222 30.6726L13.6621 30.9435C13.8292 31.264 14.1543 31.5801 14.4703 31.7336L14.6961 31.8465L21.13 31.86C25.8753 31.8691 27.6272 31.86 27.8123 31.8239C28.1961 31.7426 28.5979 31.5304 28.9049 31.246C29.2481 30.9254 29.4467 30.6229 29.6048 30.1669C29.7222 29.8283 29.7267 29.7741 29.7447 28.704C29.7628 27.4579 29.7402 27.3359 29.4738 27.1734C29.3339 27.0876 29.2481 27.0831 28.0967 27.0831H26.8641L26.8551 20.0712L26.8416 13.0639L26.7151 12.8065C26.5391 12.4498 26.2456 12.1609 25.8799 11.9893L25.5773 11.8448L24.3267 11.8313L23.0715 11.8177V10.5039C23.0715 9.06356 23.0534 8.95068 22.7961 8.81974C22.5884 8.71138 22.2498 8.73396 22.1053 8.86489ZM28.5708 28.9659C28.5573 29.5709 28.5392 29.7109 28.4579 29.8915C28.3225 30.1895 28.0335 30.4875 27.7536 30.6094L27.5188 30.7177L22.927 30.7313C20.3986 30.7358 18.3307 30.7313 18.3307 30.7177C18.3307 30.7042 18.3804 30.5958 18.4391 30.4784C18.6468 30.0676 18.6964 29.8057 18.7235 29.011L18.7506 28.257H23.672H28.5889L28.5708 28.9659Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M19.9746 10.3588C19.9024 10.3949 19.7985 10.4897 19.7489 10.571C19.6676 10.7109 19.6631 10.8193 19.6631 13.3568C19.6631 15.4562 19.6766 16.0206 19.7218 16.1019C19.8663 16.3502 20.2681 16.4541 20.5435 16.3141C20.8189 16.1696 20.8144 16.2374 20.8144 13.3206C20.8144 10.6929 20.8144 10.6568 20.7196 10.5394C20.53 10.2956 20.241 10.2278 19.9746 10.3588Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M17.6941 13.7772C17.4503 13.9397 17.4277 14.0255 17.4277 14.8247C17.4277 15.4613 17.4368 15.5651 17.518 15.6916C17.7573 16.0844 18.3623 16.0482 18.5384 15.6374C18.6287 15.4207 18.6287 14.2287 18.5384 14.012C18.403 13.6959 17.9876 13.5785 17.6941 13.7772Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M19.6627 16.8835C18.6513 17.0144 17.6445 17.5427 16.9356 18.3012C15.5405 19.8002 15.3282 22.0623 16.4164 23.8231C16.7144 24.3062 17.4368 25.0106 17.9018 25.2815C18.8319 25.8143 19.7665 26.0219 20.7508 25.9136C23.4553 25.6066 25.2794 23.0962 24.7195 20.4459C24.3448 18.6805 22.9767 17.3169 21.2023 16.9422C20.796 16.8564 20.06 16.8293 19.6627 16.8835ZM19.7665 18.536C19.8704 18.7211 20.0465 18.8204 20.2722 18.8204C20.6109 18.8204 20.8592 18.5631 20.8592 18.2154V18.0619L21.112 18.1296C21.9518 18.3464 22.7149 18.9243 23.1709 19.6873C23.3334 19.9628 23.5682 20.5542 23.5682 20.6942C23.5682 20.7258 23.4824 20.7619 23.3515 20.78C22.9948 20.8251 22.8006 21.0373 22.8006 21.3715C22.8006 21.7056 23.0445 21.9358 23.4012 21.9358H23.6043L23.5411 22.2067C23.2747 23.3581 22.2904 24.3514 21.1211 24.6584L20.8682 24.7261L20.8501 24.4778C20.8231 24.1753 20.7102 24.0128 20.4619 23.9225C20.0645 23.7825 19.6853 24.0714 19.6853 24.5139V24.7261L19.4279 24.6584C18.2901 24.3604 17.3104 23.3987 17.0214 22.297C16.9943 22.1842 16.9627 22.0623 16.9491 22.0216C16.9311 21.9584 16.9762 21.9449 17.1839 21.9268C17.4052 21.9087 17.4639 21.8817 17.5677 21.7643C17.9154 21.376 17.7122 20.8477 17.193 20.78L16.9672 20.7484L16.9988 20.5858C17.0169 20.4955 17.0891 20.2788 17.1614 20.0982C17.5587 19.15 18.394 18.4186 19.3918 18.1387L19.6627 18.0664L19.6853 18.2516C19.6988 18.3554 19.7349 18.4818 19.7665 18.536Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M20.0513 19.7822C19.7488 19.8905 19.7082 20.0034 19.6946 20.7935C19.6856 21.2676 19.6946 21.5385 19.7352 21.6243C19.7623 21.6965 20.1913 22.13 20.6834 22.5905C21.627 23.4619 21.7128 23.5206 22.0289 23.4484C22.1011 23.4348 22.2275 23.349 22.3043 23.2633C22.4172 23.1323 22.4398 23.0691 22.4398 22.8795C22.4398 22.6628 22.4262 22.6357 22.1734 22.3738C22.0244 22.2203 21.6677 21.8816 21.3832 21.6198L20.864 21.1457L20.8595 20.6806C20.8595 20.1659 20.8008 19.9673 20.6247 19.8499C20.4622 19.746 20.2319 19.7144 20.0513 19.7822Z"
+                                fill="#1A1A1A" />
+                            <defs>
+                                <linearGradient id="xd" x1="-1.10745e-06" y1="4.50001" x2="42.6839" y2="68.4054"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#EEDDBF" />
+                                    <stop offset="0.745659" stop-color="#C78A11" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <p class="ff-helve fw-700 text-16 lh-25 color-lightwhite mb-0 mt-4">
+                            Historical Importance
+                        </p>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 mb-0 max-w-316">
+                            Why is the history paper important? How does it contribute to
+                            the broader understanding of our shared past? How does the
+                            paper’s topic shape the course of history?
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="evaluate-box mx-3">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="20" fill="url(#dx)" />
+                            <path
+                                d="M19.6443 8.63449C19.072 9.02136 15.198 12.1852 15.1238 12.3177C15.0072 12.5456 15.0231 13.0013 15.1503 13.2133C15.3623 13.5631 15.4842 13.5949 16.5971 13.5949H17.5881V14.5859C17.5881 15.4868 17.5987 15.5981 17.6941 15.7571C17.8531 16.0115 18.0915 16.1387 18.436 16.1387C18.7805 16.1387 19.019 16.0115 19.1779 15.7571C19.2786 15.5928 19.2839 15.4868 19.2839 14.0188C19.2839 12.5509 19.2786 12.4449 19.1779 12.2806C19.0455 12.0633 18.7752 11.899 18.5473 11.899C18.383 11.899 18.4201 11.8566 19.2309 11.2101C19.7026 10.8285 20.1107 10.5211 20.1319 10.5211C20.1531 10.5211 20.5611 10.8285 21.0328 11.2101C21.8436 11.8566 21.8807 11.899 21.7164 11.899C21.4886 11.899 21.2183 12.0633 21.0858 12.2806C20.9851 12.4449 20.9798 12.5509 20.9798 14.0188C20.9798 15.4868 20.9851 15.5928 21.0858 15.7571C21.2448 16.0115 21.4833 16.1387 21.8277 16.1387C22.1722 16.1387 22.4107 16.0115 22.5697 15.7571C22.6651 15.5981 22.6757 15.4868 22.6757 14.5859V13.5949H23.672C24.7796 13.5949 24.9015 13.5631 25.1135 13.2133C25.2406 13.0013 25.2565 12.5456 25.14 12.3177C25.0658 12.1852 21.1918 9.02136 20.6194 8.63449C20.3598 8.4543 19.904 8.4543 19.6443 8.63449Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M12.8816 14.5495C12.7862 14.6077 12.6643 14.7296 12.606 14.825C12.5 14.9999 12.5 15.1112 12.5 23.3467C12.5 31.5823 12.5 31.6935 12.606 31.8684C12.6643 31.9638 12.7862 32.0857 12.8816 32.144C13.0512 32.25 13.1624 32.25 20.1314 32.25C27.1003 32.25 27.2116 32.25 27.3812 32.144C27.4766 32.0857 27.5985 31.9638 27.6568 31.8684C27.7627 31.6935 27.7627 31.5823 27.7627 23.3467C27.7627 15.1112 27.7627 14.9999 27.6568 14.825C27.4395 14.47 27.3388 14.4435 26.0669 14.4435C24.795 14.4435 24.6943 14.47 24.477 14.825C24.3339 15.0635 24.3339 15.5193 24.477 15.7578C24.6678 16.0704 24.8533 16.1393 25.4998 16.1393H26.0669V23.3467V30.5541H20.1314H14.1959V23.3467V16.1393H14.7682C15.2399 16.1393 15.3618 16.1234 15.5102 16.0333C15.7645 15.8743 15.8917 15.6359 15.8917 15.2914C15.8917 14.9469 15.7645 14.7084 15.5102 14.5495C15.3512 14.4541 15.2399 14.4435 14.1959 14.4435C13.1518 14.4435 13.0406 14.4541 12.8816 14.5495Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M18.1496 17.0405C18.0649 17.067 17.9377 17.1411 17.8688 17.21C17.625 17.4379 17.5879 17.5757 17.5879 18.2965C17.5879 18.8794 17.6038 19.0013 17.6939 19.1497C17.8529 19.4041 18.0913 19.5312 18.4358 19.5312C18.7803 19.5312 19.0188 19.4041 19.1778 19.1497C19.2679 18.996 19.2838 18.8794 19.2838 18.2806C19.2838 17.6499 19.2732 17.5704 19.1672 17.4114C19.0983 17.316 18.987 17.1941 18.9128 17.1358C18.7538 17.0246 18.3616 16.9716 18.1496 17.0405Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M21.5412 17.0405C21.4565 17.067 21.3293 17.1411 21.2604 17.21C21.0166 17.4379 20.9795 17.5757 20.9795 18.2965C20.9795 18.8794 20.9954 19.0013 21.0855 19.1497C21.2445 19.4041 21.483 19.5312 21.8274 19.5312C22.1719 19.5312 22.4104 19.4041 22.5694 19.1497C22.6595 18.996 22.6754 18.8794 22.6754 18.2806C22.6754 17.6499 22.6648 17.5704 22.5588 17.4114C22.4899 17.316 22.3786 17.1941 22.3044 17.1358C22.1454 17.0246 21.7532 16.9716 21.5412 17.0405Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M17.9901 20.4802C17.6085 20.7345 17.4813 21.2592 17.6986 21.6461C17.8841 21.9693 18.0378 22.0488 18.4776 22.0488C18.8645 22.0488 18.8698 22.0488 19.0712 21.8315C19.4209 21.4553 19.4209 20.9995 19.0712 20.6285C18.8804 20.4219 18.8539 20.4113 18.5094 20.3901C18.2126 20.3795 18.1172 20.3954 17.9901 20.4802Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M21.3817 20.4802C21.0001 20.7345 20.8729 21.2592 21.0902 21.6461C21.2757 21.9693 21.4294 22.0488 21.8692 22.0488C22.2561 22.0488 22.2614 22.0488 22.4628 21.8315C22.8125 21.4553 22.8125 20.9995 22.4628 20.6285C22.272 20.4219 22.2455 20.4113 21.901 20.3901C21.6042 20.3795 21.5088 20.3954 21.3817 20.4802Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M16.2732 23.8769C16.0188 24.0359 15.8916 24.2744 15.8916 24.6189C15.8916 24.9633 16.0188 25.2018 16.2732 25.3608C16.4428 25.4615 16.5487 25.4668 20.1313 25.4668C23.7138 25.4668 23.8197 25.4615 23.9893 25.3608C24.2437 25.2018 24.3709 24.9633 24.3709 24.6189C24.3709 24.2744 24.2437 24.0359 23.9893 23.8769C23.8197 23.7762 23.7138 23.7709 20.1313 23.7709C16.5487 23.7709 16.4428 23.7762 16.2732 23.8769Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M16.2732 27.2676C16.0188 27.4265 15.8916 27.665 15.8916 28.0095C15.8916 28.354 16.0188 28.5924 16.2732 28.7514C16.4428 28.8521 16.5487 28.8574 20.1313 28.8574C23.7138 28.8574 23.8197 28.8521 23.9893 28.7514C24.2437 28.5924 24.3709 28.354 24.3709 28.0095C24.3709 27.665 24.2437 27.4265 23.9893 27.2676C23.8197 27.1669 23.7138 27.1616 20.1313 27.1616C16.5487 27.1616 16.4428 27.1669 16.2732 27.2676Z"
+                                fill="#1A1A1A" />
+                            <defs>
+                                <linearGradient id="dx" x1="-1.10745e-06" y1="4.50001" x2="42.6839" y2="68.4054"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#EEDDBF" />
+                                    <stop offset="0.745659" stop-color="#C78A11" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <p class="ff-helve fw-700 text-16 lh-25 color-lightwhite mb-0 mt-4">
+                            Authorship
+                        </p>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 mb-0 max-w-316">
+                            Is the paper interesting to read? Is it free of grammatical
+                            errors and misinformation? Does it follow guidelines and
+                            accurately present the author’s analysis?
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="evaluate-box mx-3">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="20" fill="url(#dx)" />
+                            <path
+                                d="M11 16.9531V23.9062H12.9297H14.8594L15 24.0625C15.0781 24.1484 15.1406 24.2305 15.1406 24.25C15.1406 24.2656 14.4102 25.0078 13.5195 25.8984L11.8984 27.5195L13.1367 28.7578C13.8203 29.4414 14.3945 30 14.418 30C14.4414 30 15.0781 29.3789 15.8359 28.6211L17.2148 27.2422L17.4883 27.2695C17.6406 27.2891 17.8555 27.3281 17.9688 27.3594C18.332 27.4648 18.8711 27.9062 19.5078 28.6133L19.7891 28.9258L20.0508 28.6328C20.668 27.9336 21.2422 27.4688 21.6094 27.3594C21.7227 27.3281 21.9375 27.2891 22.0898 27.2695L22.3633 27.2422L23.7422 28.6211C24.5 29.3789 25.1367 30 25.1602 30C25.1836 30 25.7578 29.4414 26.4414 28.7578L27.6797 27.5195L26.0586 25.8984C25.168 25.0078 24.4375 24.2656 24.4375 24.25C24.4375 24.2305 24.5 24.1484 24.5781 24.0625L24.7188 23.9062H26.6484H28.5781V16.9531V10H19.7891H11V16.9531ZM16.8594 14.5586V17.9492L18.3242 16.4844L19.7891 15.0195L21.2539 16.4844L22.7188 17.9492V14.5586V11.1719H25.0625H27.4062V16.9531V22.7344H26.0625H24.7188L24.4336 22.4141C23.7852 21.6758 23.7109 21.4531 23.7188 20.2109L23.7227 19.3867L22.8984 19.3906C21.8633 19.3945 21.6055 19.3477 21.1836 19.0625C20.8711 18.8477 20.4922 18.5 20.0703 18.0273L19.7891 17.7148L19.5078 18.0273C19.0859 18.5 18.707 18.8477 18.3945 19.0625C17.9727 19.3477 17.7148 19.3945 16.6797 19.3906L15.8555 19.3867L15.8594 20.2109C15.8672 21.4531 15.793 21.6758 15.1445 22.4141L14.8594 22.7344H13.5156H12.1719V16.9531V11.1719H14.5156H16.8594V14.5586ZM21.5469 13.0938V15.0195L20.668 14.1406L19.7891 13.2617L18.9102 14.1406L18.0312 15.0195V13.0938V11.1719H19.7891H21.5469V13.0938ZM20.1094 19.7812C20.6797 20.2578 21.2227 20.5 21.8594 20.5625C22 20.5781 22.1953 20.5977 22.2969 20.6094L22.4766 20.6328L22.5039 20.8711C22.6094 21.9219 22.7969 22.3867 23.3789 23.0664C23.4883 23.1914 23.5781 23.3086 23.5781 23.3203C23.5781 23.332 23.4883 23.4492 23.3789 23.5742C22.8047 24.2461 22.5938 24.7656 22.5039 25.75L22.4805 26.0117L22.2578 26.0352C21.1914 26.1445 20.7734 26.3008 20.1602 26.8164C20.0312 26.9219 19.8945 27.0352 19.8555 27.0664C19.7969 27.1133 19.7578 27.0938 19.5039 26.8828C18.793 26.2969 18.418 26.1484 17.3203 26.0352L17.1016 26.0117L17.0742 25.7695C16.9648 24.7109 16.8125 24.3125 16.25 23.6406C16.1133 23.4766 16 23.332 16 23.3203C16 23.3086 16.1133 23.1641 16.25 23C16.8125 22.3281 16.9648 21.9297 17.0742 20.8711L17.1016 20.6328L17.2812 20.6094C17.3828 20.5977 17.5781 20.5781 17.7188 20.5625C18.3555 20.5 18.8984 20.2578 19.4688 19.7812C19.6328 19.6445 19.7773 19.5312 19.7891 19.5312C19.8008 19.5312 19.9453 19.6445 20.1094 19.7812ZM15.8594 26.1992L15.8633 26.875L15.1406 27.5977L14.418 28.3203L14.0195 27.9219L13.6172 27.5195L14.6992 26.4375C15.6953 25.4414 15.7852 25.3594 15.8203 25.4414C15.8398 25.4883 15.8555 25.832 15.8594 26.1992ZM25.5625 27.918L25.1602 28.3203L24.4375 27.5977L23.7148 26.875V26.2578C23.7148 25.9219 23.7305 25.5742 23.75 25.4922L23.7812 25.3398L24.8711 26.4297L25.9609 27.5195L25.5625 27.918Z"
+                                fill="#1A1A1A" />
+                            <path
+                                d="M19.207 21.6366C18.7383 21.8124 18.3984 22.121 18.1758 22.5741C18.0547 22.8241 18.0508 22.8515 18.0508 23.3202C18.0508 23.789 18.0547 23.8163 18.1758 24.0663C18.4023 24.5273 18.7461 24.8358 19.2266 25.0038C19.418 25.0702 19.5273 25.0819 19.8672 25.0702C20.2383 25.0585 20.3047 25.0429 20.5508 24.9218C20.9102 24.7499 21.2188 24.4413 21.3945 24.0819C21.5234 23.8163 21.5273 23.7968 21.5273 23.3202C21.5273 22.8437 21.5234 22.8241 21.3945 22.5585C21.2188 22.1991 20.9102 21.8905 20.5508 21.7187C20.2969 21.5937 20.2422 21.5819 19.8477 21.5741C19.4961 21.5624 19.3789 21.5741 19.207 21.6366ZM20.0781 22.8476C20.2461 22.9608 20.3359 23.121 20.3359 23.3202C20.3359 23.6327 20.1016 23.8671 19.7891 23.8671C19.5898 23.8671 19.4297 23.7773 19.3164 23.6093C19.1602 23.371 19.2461 23.0155 19.5 22.8476C19.6484 22.7499 19.9297 22.7499 20.0781 22.8476Z"
+                                fill="#1A1A1A" />
+                            <defs>
+                                <linearGradient id="dx" x1="-1.10745e-06" y1="4.50001" x2="42.6839" y2="68.4054"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#EEDDBF" />
+                                    <stop offset="0.745659" stop-color="#C78A11" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <p class="ff-helve fw-700 text-16 lh-25 color-lightwhite mb-0 mt-4">
+                            Originality
+                        </p>
+                        <p class="ff-helve fw-400 text-16 lh-25 color-lightwhite opacity-7 mb-0 max-w-316">
+                            How original is the author’s topic or thesis? Does it make it a
+                            novel claim in an already heavily talked about topic? Does it go
+                            against scholarly consensus?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-2 py-130">
+            <div class="d-flex justify-content-center">
+                <div class="donate-box">
+                    <p class="ff-helve fw-400 fst-italic text-20 lh-32 color-black mb-0">
+                        Donate to The Julian Project. Only with your support can we support
+                        the historical research of distinguished high school student.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center flex-wrap">
+                        <button
+                            class="nav-btn ff-helve fw-700 text-20 lh-32 position-relative z-3 button-line d-flex gap-2 align-items-center mt-3">
+                            <span class="text-gradient">Donate Now</span><span><svg width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 12L13 18M19 12L13 6M19 12L5 12" stroke="url(#jay)" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <defs>
+                                        <linearGradient id="jay" x1="19" y1="6" x2="4.69489" y2="16.925"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#F4EAD8" />
+                                            <stop offset="1" stop-color="#E0B764" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </button>
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4"
+                                d="M20.0125 0C8.94424 0 0 8.97751 0 20.0261C0 28.7475 5.54544 36.1638 13.3416 38.901V21.585C14.2112 21.4581 15.0807 21.3811 16 21.3811V39.642C16.8673 39.821 17.7639 39.9501 18.6584 40V21.585C19.5777 21.7391 20.497 21.943 21.3167 22.2262V40C22.2361 39.9501 23.1305 39.821 24 39.642V23.4272C24.3306 23.6062 24.6906 23.8101 24.9963 24.0412C25.61 24.4514 26.1715 24.9113 26.6833 25.4234V38.901C30.5689 37.546 33.8908 34.9878 36.2683 31.7136C38.6187 28.4144 40 24.3992 40 20.0261C40 8.97751 31.0535 0 20.0125 0ZM28.0125 20.051H12.0125V16.0358C18.1466 16.0358 23.7441 17.0079 28.0125 18.5691V20.051ZM30.6708 14.7057H9.32918V10.7155H30.6708V14.7057Z"
+                                fill="url(#paint0_linear_41260_4828)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_41260_4828" x1="0" y1="0" x2="29.6532" y2="45.2991"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F4EAD8" />
+                                    <stop offset="1" stop-color="#E0B764" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="position-relative max-w-1003 w-100">
+                    <div class="slick2">
+                        <div class="d-flex justify-content-center">
+                            <div class="project-box mt-20">
+                                <div class="row">
+                                    <div class="col-12 col-md-8">
+                                        <h5 class="ff-helve fw-700 text-48 lh-55 color-darkblack mb-0">
+                                            Prize-Winning Projects
+                                        </h5>
+                                        <p class="ff-helve fw-700 text-24 lh-27 mt-3 mb-0">
+                                            The Story of <span class="text-gradient"> Civilization</span>
+                                        </p>
+                                        <p
+                                            class="ff-helve fw-400 text-16 lh-25 color-black opacity-7 max-w-551 mb-0 mt-3">
+                                            Choose your topic. Find expert guidance. Create a thesis and bring
+                                            it to life. World-Class. These books cover various periods and
+                                            topics in history, offering different perspectives and insights into
+                                            different civilizations and events.
+                                        </p>
+                                        <p class=" text-uppercase ff-helve fw-400 text-16 lh-25 color-black mb-0 mt-19">
+                                            Will
+                                            Durant
+                                            &
+                                            Ariel
+                                            Durant</p>
+                                        <button
+                                            class="nav-btn ff-helve fw-700 text-20 lh-32 position-relative z-3 button-line d-flex gap-2 align-items-center d-none d-sm-flex mt-3">
+                                            <span class="text-gradient">Read More</span><span><svg width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19 12L13 18M19 12L13 6M19 12L5 12"
+                                                        stroke="url(#paint0_linear_41361_2210)" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <defs>
+                                                        <linearGradient id="paint0_linear_41361_2210" x1="19" y1="6"
+                                                            x2="4.69489" y2="16.925" gradientUnits="userSpaceOnUse">
+                                                            <stop stop-color="#F4EAD8" />
+                                                            <stop offset="1" stop-color="#E0B764" />
+                                                        </linearGradient>
+                                                    </defs>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div
+                                        class="col-12 mt-3 mt-md-0 col-md-4 d-md-flex align-items-center align-items-lg-start">
+                                        <div class="img-box">
+                                            <img src="./assets/images/project-winning-img.png" alt="project-winning-img"
+                                                class="w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="project-box mt-20">
+                                <div class="row">
+                                    <div class="col-12 col-md-8">
+                                        <h5 class="ff-helve fw-700 text-48 lh-55 color-darkblack mb-0">
+                                            Prize-Winning Projects
+                                        </h5>
+                                        <p class="ff-helve fw-700 text-24 lh-27 mt-3 mb-0">
+                                            The Story of <span class="text-gradient"> Civilization</span>
+                                        </p>
+                                        <p
+                                            class="ff-helve fw-400 text-16 lh-25 color-black opacity-7 max-w-551 mb-0 mt-3">
+                                            Choose your topic. Find expert guidance. Create a thesis and bring
+                                            it to life. World-Class. These books cover various periods and
+                                            topics in history, offering different perspectives and insights into
+                                            different civilizations and events.
+                                        </p>
+                                        <p class=" text-uppercase ff-helve fw-400 text-16 lh-25 color-black mb-0 mt-19">
+                                            Will
+                                            Durant
+                                            &
+                                            Ariel
+                                            Durant</p>
+                                        <button
+                                            class="nav-btn ff-helve fw-700 text-20 lh-32 position-relative z-3 button-line d-flex gap-2 align-items-center d-none d-sm-flex mt-3">
+                                            <span class="text-gradient">Read More</span><span><svg width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19 12L13 18M19 12L13 6M19 12L5 12"
+                                                        stroke="url(#paint0_linear_41361_2210)" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <defs>
+                                                        <linearGradient id="paint0_linear_41361_2210" x1="19" y1="6"
+                                                            x2="4.69489" y2="16.925" gradientUnits="userSpaceOnUse">
+                                                            <stop stop-color="#F4EAD8" />
+                                                            <stop offset="1" stop-color="#E0B764" />
+                                                        </linearGradient>
+                                                    </defs>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div
+                                        class="col-12 mt-3 mt-md-0 col-md-4 d-md-flex align-items-center align-items-lg-start">
+                                        <div class="img-box">
+                                            <img src="./assets/images/project-winning-img.png" alt="project-winning-img"
+                                                class="w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="btn-slider d-flex justify-content-center align-items-center position-absolute left-btn-pos d-none d-xl-flex">
+                        <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7.5L7 14" stroke="url(#paint0_linear_41573_158)" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <defs>
+                                <linearGradient id="paint0_linear_41573_158" x1="1" y1="1" x2="9.89465" y2="3.68732"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F4EAD8" />
+                                    <stop offset="1" stop-color="#E0B764" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div
+                        class="btn-slider d-flex justify-content-center align-items-center position-absolute right-btn-pos d-none d-xl-flex">
+                        <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L7 7.5L0.999999 14" stroke="url(#paint0_linear_41573_158)" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <defs>
+                                <linearGradient id="paint0_linear_41573_158" x1="1" y1="1" x2="9.89465" y2="3.68732"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F4EAD8" />
+                                    <stop offset="1" stop-color="#E0B764" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------------- time-line-section-submission --------------------->
+    <section class="bg-submission-img">
+        <div class="container-2 py-120">
+            <h2 class=" ff-helve fw-700 text-48 lh-55 text-center text-gradient">Submission Timeline</h2>
+        </div>
+    </section>
+    <section>
+        <div class="container-2 py-130">
+            <div class="row">
+                <div class="col-6">
+                    <div class="max-w-338">
+                        <p class=" ff-helve fw-400 text-16 lh-25 color-black mb-0 text-center">“We Given Away Number Of
+                            500 Grants
+                            Yearly”</p>
+                        <p class=" ff-helve fw-700 text-16 lh-25 text-gradient mb-0 text-center">Amount Of $250</p>
+                    </div>
+                    <img class="mt-11" src="./assets/images/julian-img.png" alt="julian-img">
+                    <div class="julian-text-box mt-14">
+                        <p class=" ff-helve fw-400 fst-italic text-12 lh-19 mb-0">We have only left 144 Grants, If you
+                            are
+                            Interested,
+                            please apply
+                            now for
+                            The Julian Project Grants.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h5 class=" ff-helve fw-700 text-48 lh-55 color-darkblack mb-0">The Julian Grant</h5>
+                    <p class="ff-helve fw-400 text-16 lh-25 color-black max-w-575 mb-0 opacity-7 mt-3">To bridge the
+                        inequality gap in the
+                        humanities, The
+                        Julian
+                        Grant
+                        recognizes and
+                        supports the remarkable achievements of low-income historians. Valued at $250,this esteemed
+                        grant aims to honor the resilience and academic prowess of low income scholars who have
+                        displayed exceptional dedication and passion in their pursuit of the histories.
+                    </p>
+                    <p class="ff-helve fw-400 text-16 lh-25 color-black opacity-7 mt-2">By providing financial
+                        assistance,
+                        The Julian Grant seeks
+                        to
+                        empower and
+                        enable
+                        low-income
+                        students of history to continue their invaluable contributions to the field of history. This
+                        award not only celebrates the accomplishments of low-income individuals but also serves as a
+                        catalyst for their continued success and endeavors within the historical community.</p>
+                    <button
+                        class="nav-btn ff-helve fw-700 text-20 lh-32 position-relative z-3 button-line d-flex gap-2 align-items-center d-flex mt-32">
+                        <span class="text-gradient">Apply now</span><span><svg width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 12L13 18M19 12L13 6M19 12L5 12" stroke="url(#hello)" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <defs>
+                                    <linearGradient id="hello" x1="19" y1="6" x2="4.69489" y2="16.925"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#F4EAD8" />
+                                        <stop offset="1" stop-color="#E0B764" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        $(".slick").slick({
+            dots: false,
+            infinite: true,
+            autoplay: true,
+            speed: 300,
+            slidesToShow: 3,
+            arrows: false,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true,
+                    },
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        dots: true,
+                    },
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true,
+                    },
+                },
+            ],
+        });
+
+        $(".slick2").slick({
+            dots: false,
+            infinite: true,
+            autoplay: false,
+            speed: 300,
+            slidesToShow: 1,
+            prevArrow: '.left-btn-pos',
+            nextArrow: ".right-btn-pos",
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true,
+                        autoplay: true,
+                        arrows: false,
+
+                    },
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: false,
+                    },
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: false,
+                    },
+                },
+            ],
+        });
+    </script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
