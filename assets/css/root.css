@@ -53,7 +53,7 @@
 }
 
 .text-12 {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .color-black {
@@ -130,7 +130,7 @@
 
 @font-face {
     font-family: "Helvetica", sans-serif;
-    src: url(../font-family/Helvetica-Font/Helvetica-Oblique.ttf);
+    src: url(../font-family/Helvetica-Font/helvetica-light-587ebe5a59211.ttf);
 }
 
 .ff-ebgara {
