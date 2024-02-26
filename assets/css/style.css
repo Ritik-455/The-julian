@@ -143,6 +143,32 @@
     padding-bottom: 156px;
 }
 
+.mt-36 {
+    margin-top: 36px;
+}
+
+.mt-82 {
+    margin-top: 82px;
+}
+
+.mt-74 {
+    margin-top: 74px;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pb-84 {
+    padding-bottom: 84px;
+}
+
+.pt-101 {
+    padding-top: 101px;
+}
+.mt-82{
+    margin-top: 82px;
+}
 /*********************************padding-margin****************************************************/
 .text-gradient {
     background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
@@ -230,7 +256,9 @@ ul {
     mask-composite: exclude;
 }
 
-
+.max-w-730 {
+    max-width: 730px;
+}
 
 .nav-hover {
     transition: 0.3s linear;
@@ -658,8 +686,7 @@ hr {
 
 .timeline_line {
     min-width: 1px;
-    height: unset;
-    min-height: 526px;
+    height: 1100px;
     background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
 }
 
@@ -679,6 +706,126 @@ hr {
     min-width: 128px;
 }
 
+li .active {
+    opacity: 1;
+}
+
+li .active div p {
+    background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+}
+
+li .active div path {
+    fill: url(#paint0_linear_41892_1857878);
+}
+
+li div path {
+    fill: #fcf9f6;
+}
+
+.bg-probono {
+    background-image: url(../images/pro-bono-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.timeline_line-2 {
+    min-width: 1px;
+    height: 840px;
+    background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
+}
+
+.timeline-box-2 {
+    min-width: 185px;
+}
+
+.max-w-136 {
+    max-width: 136px;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url(../images/accordian+icon.svg) !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: 0.3s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/minus-img.png) !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: unset !important;
+    box-shadow: none !important;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: var(--fs-md);
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 1px;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+    z-index: 2 !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: unset !important;
+}
+
+.accordion-item {
+    position: relative;
+    z-index: 4;
+}
+
+.accordion-item::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    background: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%) border-box;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    z-index: -1 !important;
+}
+
+.accordion {
+    --bs-accordion-bg: none !important;
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-border-width: none !important;
+    --bs-accordion-border-radius: none !important;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.max-w-534 {
+    max-width: 534px;
+}
 
 @media (min-width:576px) {
     .hero-box {
@@ -687,6 +834,10 @@ hr {
 
     .gap-82 {
         gap: 35px;
+    }
+
+    .timeline_line {
+        height: 795px;
     }
 }
 
@@ -698,6 +849,10 @@ hr {
     .gap-82 {
         gap: 15px;
     }
+
+    .timeline_line {
+        height: 740px;
+    }
 }
 
 @media (min-width:992px) {
@@ -706,7 +861,7 @@ hr {
     }
 
     .timeline_line {
-        height: 570px;
+        height: 700px;
     }
 }
 
@@ -725,6 +880,10 @@ hr {
 
     .pl-35 {
         padding-left: unset;
+    }
+
+    .timeline_line {
+        height: 534px;
     }
 }
 

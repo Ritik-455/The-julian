@@ -72,9 +72,11 @@
 .color-gold {
     color: var(--color-gold);
 }
-.lh-19{
+
+.lh-19 {
     line-height: 19.2px;
 }
+
 .lh-22 {
     line-height: 22.4px;
 }
@@ -115,6 +117,10 @@
     line-height: 68.99px;
 }
 
+.lh-24 {
+    line-height: 24px;
+}
+
 .opacity-7 {
     opacity: 0.7;
 }
@@ -139,10 +145,6 @@
 
 .ff-helve {
     font-family: "Helvetica", sans-serif;
-}
-
-.lts-1 {
-    letter-spacing: -1%;
 }
 
 
