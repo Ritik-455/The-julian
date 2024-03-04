@@ -995,6 +995,14 @@ li .active::after {
     left: -35%;
 }
 
+.bg-accordian {
+    background-image: url(../images/accodion_bg_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 @font-face {
     font-family: Helvetica;
     src: url(../font-family/Helvetica-Font/Helvetica.ttf);
@@ -1168,7 +1176,7 @@ li .active::after {
     }
 
     .pb-33 {
-        padding-bottom: 84px;
+        padding-bottom: 86px;
     }
 
     .bg-prize {
@@ -1235,6 +1243,13 @@ li .active::after {
 
     .pt-40 {
         padding-top: 126px;
+    }
+
+    .footer-box {
+        width: 520px;
+        border: 1px solid #FFFFFF29;
+        padding: 17px 0px 17px 20px;
+        border-radius: 4px;
     }
 }
 
