@@ -995,7 +995,7 @@ li .active::after {
     left: -35%;
 }
 
-.bg-accordian {
+.bg-accordian { 
     background-image: url(../images/accodion_bg_img.png);
     background-position: center;
     background-repeat: no-repeat;
