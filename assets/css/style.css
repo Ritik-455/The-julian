@@ -1046,7 +1046,7 @@ li .active::after {
 
 
     .history-tabs {
-        width: 275px;
+        max-width: 275px;
         border-bottom: 1px solid #FFFFFF52;
         border-left: 0px solid transparent;
         border-top: 0px solid transparent;
