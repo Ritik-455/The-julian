@@ -462,7 +462,7 @@ ul {
 
 .evaluate-box:hover {
     border: none;
-    background-color: var(--color-grey);
+    background-color:  var( --color-darkylw);
 }
 
 .max-w-316 {
@@ -955,18 +955,18 @@ li .active::after {
 
 .bottom-layer-pos {
     bottom: 0;
-    right: -13%;
+    right: -17%;
 }
 
 
 
 .juline-bottom-pos {
     bottom: -0%;
-    right: -13%;
+    right: -18%;
 }
 
 .left-layer-pos {
-    right: -13%;
+    right: -17%;
     top: 10%;
 }
 
@@ -976,7 +976,7 @@ li .active::after {
 }
 
 .left-ellips-pos {
-    right: -20%;
+    right: -24%;
     top: -18%;
 }
 
